@@ -105,7 +105,7 @@ if __name__ == "__main__":
             else:
                 print(f"Failed to get a response for iteration {i}.")
                 break
-            delay = random.randint(1000, 2000)  # Random time between 1000 to 2000 seconds
+            delay = random.randint(100, 1000)  # Random time between 100 to 1000 seconds
             print(f"Sleeping for {delay} seconds.")
             time.sleep(delay)
     else:
