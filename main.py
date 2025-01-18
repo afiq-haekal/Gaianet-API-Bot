@@ -173,7 +173,7 @@ if __name__ == "__main__":
                     footer="Process failed"
                 )
                 break
-            delay = random.randint(100, 1000)
+            delay = random.randint(30, 60)
             print(f"Sleeping for {delay} seconds.")
             time.sleep(delay)
     else:
